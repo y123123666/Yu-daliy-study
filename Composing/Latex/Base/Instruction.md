@@ -155,6 +155,7 @@
   
 
 ### 导出PDF文件
+由于latex的pdf阅读器默认为内置的，在导出pdf文件时，需要手动安装第三方pdf阅读器。
 1. 下载PDF阅读器
     - 安装[SumatraPDF](https://www.sumatrapdfreader.org/downloadafter)
 2. Latex workshop配置
@@ -175,4 +176,4 @@
 1. 导出PDF出错
    - PDF路径配置错误
 2. 编译后无反应
-   - 检查语法错误 
+   - 检查语法错误
