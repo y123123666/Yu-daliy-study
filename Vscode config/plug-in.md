@@ -42,7 +42,9 @@
 }
 
 ```
-
+- 快捷键配置
+  - 先选择变量(光标放上去即可)，快捷键ctrl + shift+ p，然后输入highli…，然后选择Highlight Toggle Current，
+  可以绑定快捷键ALT+B,方便高亮
   
 
 ### 第三方插件
