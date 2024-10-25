@@ -62,6 +62,7 @@
 - Git Graph
 - Git History
 - TONGYI Lingma
+- Open
 
 
 
