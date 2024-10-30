@@ -1,0 +1,18 @@
+% /*
+%  * @Author: yu 
+%  * @Date: 2024-10-25 21:50:14 
+%  * @Last Modified by:   yu 
+%  * @Last Modified time: 2024-10-25 21:50:14 
+%  */
+\documentclass{ctexart}
+\usepackage[paperheight=18cm,paperwidth=12cm,bottom=2mm,left=2mm,right=2mm,top=2mm]{geometry}% 纸张大小
+\usepackage{paralist,graphicx,xcolor}% 列表，图片，颜色
+\usepackage{amsmath}% 公式
+\pagestyle{empty}% 无页码
+
+\begin{document}
+在中文输入法状态下输入（1）或（一）这种带括号的数字，左边的括号，右边的括号的 %
+右边的空白较多，如何实现输出\makebox[0.3em][r]{（\hspace{-0.15em}}1\makebox[0.3em][l]{）\hspace{-0.15em}} %
+或\makebox[0.3em][r]{（\hspace{-0.15em}}一\makebox[0.3em][l]{）\hspace{-0.15em}} 这样的效果呢？
+
+\end{document}
