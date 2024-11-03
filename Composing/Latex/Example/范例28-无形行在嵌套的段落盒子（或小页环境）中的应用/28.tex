@@ -1,0 +1,59 @@
+% /*
+%  * @Author: yu 
+%  * @Date: 2024-10-25 21:50:14 
+%  * @Last Modified by:   yu 
+%  * @Last Modified time: 2024-10-25 21:50:14 
+%  */
+\documentclass{ctexart}
+\usepackage[paperheight=18cm,paperwidth=13cm,bottom=2mm,left=2mm,right=2mm,top=2mm]{geometry}% 纸张大小
+\usepackage{paralist,graphicx,xcolor}% 列表，图片，颜色
+\usepackage{amsmath}% 公式
+\usepackage{dashbox}% 虚线框命令\dbox
+\usepackage{lmodern}% 使用可缩放字体：使用可缩放的字体包，例如 lmodern 或 newtxmath，这些字体包支持更多的字体大小。
+
+% \setlength{\textwidth}{<1000>}% 设置文本宽度
+\pagestyle{empty}% 无页码
+
+\begin{document}
+
+学习\LaTeX 要有数学头脑。要认真理解
+\begin{minipage}{1.76cm}
+\fbox{\parbox[t]{1.57cm}{段落盒子\\小页环境}}
+\end{minipage}
+才能利用好他们。
+
+\rule[-1cm]{0mm}{0mm}
+
+学习\LaTeX 要有数学头脑。要认真理解
+\begin{minipage}[t]{1.76cm}
+\fbox{\parbox[t]{1.57cm}{段落盒子\\小页环境}}
+\end{minipage}
+才能利用好他们。
+
+\rule[-1cm]{0mm}{0mm}
+
+学习\LaTeX 要有数学头脑。要认真理解
+\begin{minipage}[b]{1.76cm}
+\fbox{\parbox[t]{1.57cm}{段落盒子\\小页环境}}
+\end{minipage}
+才能利用好他们。
+
+\rule[-1cm]{0mm}{0mm}
+
+学习\LaTeX 要有数学头脑。要认真理解
+\begin{minipage}[b]{1.76cm}
+\hrule height 0pt
+\fbox{\parbox[t]{1.57cm}{段落盒子\\小页环境}}
+\end{minipage}
+才能利用好他们。
+
+\rule[-1cm]{0mm}{0mm}
+
+学习\LaTeX 要有数学头脑。要认真理解
+\begin{minipage}[b]{1.76cm}
+\fbox{\parbox[t]{1.57cm}{段落盒子\\小页环境}}
+\hrule height 0pt
+\end{minipage}
+才能利用好他们。
+
+\end{document}

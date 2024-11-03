@@ -1,0 +1,28 @@
+% /*
+%  * @Author: yu 
+%  * @Date: 2024-10-25 21:50:14 
+%  * @Last Modified by:   yu 
+%  * @Last Modified time: 2024-10-25 21:50:14 
+%  */
+\documentclass{ctexart}
+\usepackage[paperheight=18cm,paperwidth=13cm,bottom=2mm,left=2mm,right=2mm,top=2mm]{geometry}% 纸张大小
+\usepackage{paralist,graphicx,xcolor}% 列表，图片，颜色
+\usepackage{amsmath}% 公式
+\usepackage{dashbox}% 虚线框命令\dbox
+\usepackage{lmodern}% 使用可缩放字体：使用可缩放的字体包，例如 lmodern 或 newtxmath，这些字体包支持更多的字体大小。
+\pagestyle{empty}% 无页码
+
+\begin{document}
+
+\raisebox{7mm}[6mm][2.5mm]{\dbox{坐电梯上楼}}
+\raisebox{-2.5mm}[6mm][5mm]{\dbox{坐电梯下楼}}
+\raisebox{-6mm}{\dbox{坐电梯下楼}}
+
+尺寸全为零的升降\raisebox{2mm}[0pt][0mm]{\makebox[0cm][l]{\hspace{3cm}文本框}}盒子。
+
+\raisebox{-6mm}{\makebox[0cm][l]{\dbox{文本框}}}
+% \raisebox{-6mm}{\makebox[0cm][r]{\dbox{文本框}}}
+% \raisebox{-6mm}{\makebox[0cm][c]{\dbox{文本框}}}
+
+\end{document}
+\end{document}

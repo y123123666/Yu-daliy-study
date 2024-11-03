@@ -1,0 +1,59 @@
+% /*
+%  * @Author: yu 
+%  * @Date: 2024-10-25 21:50:14 
+%  * @Last Modified by:   yu 
+%  * @Last Modified time: 2024-10-25 21:50:14 
+%  */
+\documentclass{ctexart}
+\usepackage[paperheight=18cm,paperwidth=13cm,bottom=2mm,left=2mm,right=2mm,top=2mm]{geometry}% 纸张大小
+\usepackage{paralist,graphicx,xcolor}% 列表，图片，颜色
+\usepackage{amsmath}% 公式
+\usepackage{dashbox}% 虚线框命令\dbox
+\usepackage{lmodern}% 使用可缩放字体：使用可缩放的字体包，例如 lmodern 或 newtxmath，这些字体包支持更多的字体大小。
+
+% \setlength{\textwidth}{<1000>}% 设置文本宽度
+\pagestyle{empty}% 无页码
+
+\begin{document}
+\makebox[0.3em][r]{（\hspace{-0.15em}}1\makebox[0.4em][l]{）\hspace{-0.15em}}可以给一句话添加下划线以起到提醒作用%
+
+\makebox[0cm][l]{\rule[-1.5mm]{40mm}{1.7pt}}同学们请注意
+
+\makebox[0.3em][r]{（\hspace{-0.15em}}2\makebox[0.4em][l]{）\hspace{-0.15em}}制作试卷中填空题的下划线%
+
+\makebox[0cm][l]{\rule[-1.5mm]{20mm}{0.5pt}}
+
+\makebox[0.3em][r]{（\hspace{-0.15em}}3\makebox[0.4em][l]{）\hspace{-0.15em}}用于显示行盒子的基线%
+
+\makebox[0cm][l]{\rule{32mm}{0.4pt}}计算机排版AQfhq
+
+\makebox[0.3em][r]{（\hspace{-0.15em}}4\makebox[0.4em][l]{）\hspace{-0.15em}}制作长方形%
+
+\makebox[0cm][l]{\rule[-1.5mm]{20mm}{0.5pt}}%生成下边线
+\makebox[0cm][l]{\rule[1.5mm]{20mm}{0.5pt}}%生成上边线
+\makebox[0cm][l]{\rule[-1.5mm]{0.5pt}{3mm}}%生成左边线
+\hspace{19.836mm}\makebox[0cm][l]{\rule[-1.5mm]{0.5pt}{3mm}}%生成右边线
+
+\makebox[0.3em][r]{（\hspace{-0.15em}}5\makebox[0.4em][l]{）\hspace{-0.15em}}增大行距%
+
+LATEX能自动检测每行所有盒子的盒高和盒深，以盒高和盒深的最大值
+作为行盒子的\rule[2.5mm]{6mm}{2.5mm} 和\rule[-5mm]{4mm}{4mm}，根据行盒子的盒高和盒深来适当的安排行距，避免行之间太近或重叠。
+
+\makebox[0.3em][r]{（\hspace{-0.15em}}6\makebox[0.4em][l]{）\hspace{-0.15em}}用于生成垂直空白%
+
+\rule[-7cm]{0mm}{0mm}
+
+\makebox[0.3em][r]{（\hspace{-0.15em}}7\makebox[0.4em][l]{）\hspace{-0.15em}}用于生成水平空白%
+
+生成一段\rule[0cm]{3cm}{0mm}3cm的水平空白
+
+\makebox[0.3em][r]{（\hspace{-0.15em}}8\makebox[0.4em][l]{）\hspace{-0.15em}}分隔文本内容%
+
+可以使用支柱分割文\rule[-2mm]{0.5pt}{6mm}本\rule[-2mm]{0.5pt}{6mm}内\rule[-2mm]{0.5pt}{6mm}容
+
+\makebox[0.3em][r]{（\hspace{-0.15em}}9\makebox[0.4em][l]{）\hspace{-0.15em}}绘制条形统计图或频率分布直方图%
+
+\makebox[0cm][l]{\rule{28mm}{0.2pt}}\rule{5mm}{10mm}\,\rule{5mm}{13mm}\,%
+\rule{5mm}{18mm}\,\rule{5mm}{15mm}\,\rule{5mm}{4mm}
+
+\end{document}

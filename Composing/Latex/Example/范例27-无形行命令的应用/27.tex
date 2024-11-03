@@ -4,19 +4,28 @@
 %  * @Last Modified by:   yu 
 %  * @Last Modified time: 2024-10-25 21:50:14 
 %  */
+
+
 \documentclass{ctexart}
-\usepackage[paperheight=29.7cm,paperwidth=21cm,bottom=2mm,left=2mm,right=2mm,top=2mm]{geometry}% 纸张大小
+\usepackage[paperheight=18cm,paperwidth=13cm,bottom=2mm,left=2mm,right=2mm,top=2mm]{geometry}% 纸张大小
 \usepackage{paralist,graphicx,xcolor}% 列表，图片，颜色
 \usepackage{amsmath}% 公式
 \usepackage{dashbox}% 虚线框命令\dbox
 \usepackage{lmodern}% 使用可缩放字体：使用可缩放的字体包，例如 lmodern 或 newtxmath，这些字体包支持更多的字体大小。
-\usepackage{graphicx}% 可以使用变换盒子命令
 
 % \setlength{\textwidth}{<1000>}% 设置文本宽度
 \pagestyle{empty}% 无页码
 
 \begin{document}
 
-你好，欢迎使用我的模板
+宽度为文本行宽，高度和深度都为零的线段，这条线段不可见，但是系统仍然视其为\hrule height 0pt 一行，故称此命令生成的线段为无形行
+
+\hrule
+命令\verb|\hrule| 常常用于绘制与行宽相等的标题装饰或文本分割线
 
 \end{document}
+
+
+
+%help
+% 使用\verb|\verb| 命令，它可以用于显示代码或命令

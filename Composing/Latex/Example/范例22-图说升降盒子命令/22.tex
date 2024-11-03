@@ -1,1 +1,15 @@
-qq
+\documentclass{ctexart}
+\usepackage{dashbox}
+\usepackage[paperheight=1.6cm,paperwidth=9.cm,bottom=2mm,left=2mm,right=2mm,top=2mm]{geometry}
+\pagestyle{empty}
+
+\begin{document}
+\noindent\fboxrule=0.2pt \fboxsep=0pt
+... \fbox{ABC}%
+\fbox{\raisebox{5mm}{\dbox{D...E}}}...%
+\fbox{\raisebox{-4mm}{\dbox{D...E}}}%
+\fbox{\raisebox{5mm}[5mm]{F...G}}%
+\fbox{\raisebox{3mm}[4mm][4mm]{\dbox{H...I}}}J...K%
+\fbox{\raisebox{-4.5mm}[4mm][2.5mm]{\dbox{L...M}}}...%
+\fbox{\raisebox{3.8mm}[4mm][3.5mm]{\dbox{升降盒子}}}%
+\end{document}
